@@ -27,7 +27,7 @@ I have downloaded the necessary libraries and packaged them into static librarie
 
 # Compilation
 
-Assuming your source code file is named sdl_qrcode.c:
+The source code file is named sdl_qrcode.c or terminal_qrcode.c:
 ```
 gcc -O2 sdl_qrcode.c -o sdl_qrcode -L. -lqrencode -lSDL2
 
@@ -69,7 +69,6 @@ or
 ```
 ./terminal_qrcode 123456
 ```
-
 The program will open a window showing the QR code of the provided data.
 
 Close the window to exit the program.
