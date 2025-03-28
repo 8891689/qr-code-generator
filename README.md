@@ -67,7 +67,7 @@ Example with data containing spaces
 ```
 or
 ```
-./terminal_qrcode 123456
+./terminal_qrcode bc1qt3nh2e6gjsfkfacnkglt5uqghzvlrr6jahyj2k
 ```
 The program will open a window showing the QR code of the provided data.
 
