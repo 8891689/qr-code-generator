@@ -63,7 +63,7 @@ Example with a URL
 ```
 Example with data containing spaces
 ```
-./sdl_qrcode "This is some data with spaces"
+./sdl_qrcode KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn
 ```
 or
 ```
