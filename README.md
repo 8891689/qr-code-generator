@@ -1,6 +1,6 @@
 # qr code generator
 
-This is a simple C program that encodes an input string into a QR code and displays it in a window using SDL2 or rencode library.
+It encodes the input string or text into a QR code and uses libraries such as SDL2 or rencode to display it in the window, or generate a QR code image, avoiding manual information input and directly scanning with a mobile phone. It is convenient and fast, and supports all text characters and special symbols. It is generally used for addresses, public and private keys, mobile phone numbers, mnemonics, zip codes, mailboxes, accounts including bank accounts, WeChat, Alipay, etc., all data that need to be manually input twice.
 
 ## Dependencies
 
@@ -39,7 +39,7 @@ gcc -O2 terminal_qrcode.c -o terminal_qrcode -L. -lqrencode
 gcc -O2 png_qrcode.c -o png_qrcode -L. -lqrencode -lpng -lz -lm
 
 ```
-```
+
 -O2 is an optimization flag (optional).
 -o sdl_qrcode specifies the output executable file name.
 -lqrencode links the libqrencode library.
@@ -50,7 +50,7 @@ Purpose: This is the standard library for processing PNG image format.
 Purpose: zlib provides data compression and decompression functions, especially Deflate algorithm.
 -lm: Link to Mathematics Library (libm).
 Purpose: Provides standard mathematical functions, such as sqrt, sin, cos, etc.
-```
+
 Usage
 
 Run the compiled program from the command line, passing the text data you want to encode as an argument. 
