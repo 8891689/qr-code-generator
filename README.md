@@ -93,11 +93,7 @@ terminal_qrcode will print the QR code directly in the window.
 
 png_qrcode will convert the input text data into a QR code image and save it in the program directory.
 
-# ⚠️ Caution ⚠️
 
-Be careful when encoding sensitive information when using a device in public or on a network. QR codes can be easily scanned by anyone.
-
-Your command line history may record the data you enter as parameters. If the data is sensitive, consider clearing the history or using another method.
 
 # Sponsorship
 If this project was helpful to you, please buy me a coffee. Your support is greatly appreciated. Thank you!
@@ -108,7 +104,13 @@ DOGE: DTszb9cPALbG9ESNJMFJt4ECqWGRCgucky
 TRX: TAHUmjyzg7B3Nndv264zWYUhQ9HUmX4Xu4
 ```
 
-# 📜 Disclaimer
-Reminder: Do not input real private keys on connected devices!
 
-This tool is provided for learning and research purposes only. Please use it with an understanding of the relevant risks. The developers are not responsible for financial losses or legal liability -caused by the use of this tool.
+# 📜 Disclaimer
+Reminder: Please use this program in a safe environment. Do not enter important information in a connected device or public environment to avoid risks such as information leakage!
+# ⚠️ Caution ⚠️
+
+Be careful when encoding sensitive information when using a device in public or on a network. QR codes can be easily scanned by anyone.
+
+Your command line history may record the data you enter as parameters. If the data is sensitive, consider clearing the history or using another method.
+
+This tool is for learning and research purposes only. It is completely open source and does not contain any Trojans, backdoors or other computer viruses. Please use it after understanding the relevant risks. The developer is not responsible for any economic losses or legal liabilities caused by the use of this tool.
