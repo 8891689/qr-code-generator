@@ -39,7 +39,7 @@ gcc -O2 terminal_qrcode.c -o terminal_qrcode -L. -lqrencode
 gcc -O2 png_qrcode.c -o png_qrcode -L. -lqrencode -lpng -lz -lm
 
 ```
-
+```
 -O2 is an optimization flag (optional).
 -o sdl_qrcode specifies the output executable file name.
 -lqrencode links the libqrencode library.
@@ -50,7 +50,7 @@ Purpose: This is the standard library for processing PNG image format.
 Purpose: zlib provides data compression and decompression functions, especially Deflate algorithm.
 -lm: Link to Mathematics Library (libm).
 Purpose: Provides standard mathematical functions, such as sqrt, sin, cos, etc.
-
+```
 Usage
 
 Run the compiled program from the command line, passing the text data you want to encode as an argument. 
