@@ -30,7 +30,7 @@ I have downloaded the necessary libraries and packaged them into static librarie
 
 # Compilation
 
-The source code file is named sdl_qrcode.c or terminal_qrcode.c:
+The source code file is named sdl_qrcode.c or terminal_qrcode.c or png_qrcode.c:
 ```
 gcc -O2 sdl_qrcode.c -o sdl_qrcode -L. -lqrencode -lSDL2
 
